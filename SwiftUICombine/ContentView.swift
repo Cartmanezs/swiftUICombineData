@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     @State private var contentOffset = CGFloat(0)
     var body: some View {
         NavigationView {
@@ -29,6 +30,7 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
+        .accentColor(colorScheme == .dark ? .white : .purple)
     }
     
     var content: some View {

@@ -18,6 +18,8 @@
 		5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0072B15E005009F1AE5 /* GradientIcon.swift */; };
 		5280F00A2B15E581009F1AE5 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0092B15E581009F1AE5 /* FAQView.swift */; };
 		5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F00B2B15E590009F1AE5 /* PackagesView.swift */; };
+		5280F0142B160814009F1AE5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0132B160814009F1AE5 /* Package.swift */; };
+		5280F0162B160940009F1AE5 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0152B160940009F1AE5 /* PackageRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		5280F0072B15E005009F1AE5 /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 		5280F0092B15E581009F1AE5 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		5280F00B2B15E590009F1AE5 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
+		5280F0132B160814009F1AE5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		5280F0152B160940009F1AE5 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		5280EFEF2B15D5C1009F1AE5 /* SwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				5280F0122B160809009F1AE5 /* Models */,
 				5280F0112B15E5DE009F1AE5 /* Components */,
 				5280F0102B15E5CA009F1AE5 /* Utils */,
 				5280F00D2B15E5A0009F1AE5 /* Views */,
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				5280F0052B15DE6D009F1AE5 /* MenuRow.swift */,
+				5280F0152B160940009F1AE5 /* PackageRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -134,6 +140,14 @@
 				5280F00E2B15E5B1009F1AE5 /* Rows */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		5280F0122B160809009F1AE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5280F0132B160814009F1AE5 /* Package.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +223,11 @@
 				5280F0012B15D68E009F1AE5 /* VisualEffectBlur.swift in Sources */,
 				5280F0042B15DAB6009F1AE5 /* TrackableScrollView.swift in Sources */,
 				5280EFF32B15D5C1009F1AE5 /* ContentView.swift in Sources */,
+				5280F0162B160940009F1AE5 /* PackageRow.swift in Sources */,
 				5280F00A2B15E581009F1AE5 /* FAQView.swift in Sources */,
 				5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */,
 				5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */,
+				5280F0142B160814009F1AE5 /* Package.swift in Sources */,
 				5280EFF12B15D5C1009F1AE5 /* SwiftUICombineApp.swift in Sources */,
 				5280F0022B15D68E009F1AE5 /* AccountBackground.swift in Sources */,
 				5280F0062B15DE6D009F1AE5 /* MenuRow.swift in Sources */,
