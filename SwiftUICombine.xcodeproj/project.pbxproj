@@ -11,6 +11,9 @@
 		5280EFF32B15D5C1009F1AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280EFF22B15D5C1009F1AE5 /* ContentView.swift */; };
 		5280EFF52B15D5C2009F1AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280EFF42B15D5C2009F1AE5 /* Assets.xcassets */; };
 		5280EFF82B15D5C2009F1AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280EFF72B15D5C2009F1AE5 /* Preview Assets.xcassets */; };
+		5280F0012B15D68E009F1AE5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280EFFF2B15D68E009F1AE5 /* VisualEffectBlur.swift */; };
+		5280F0022B15D68E009F1AE5 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0002B15D68E009F1AE5 /* AccountBackground.swift */; };
+		5280F0042B15DAB6009F1AE5 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0032B15DAB6009F1AE5 /* TrackableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		5280EFF22B15D5C1009F1AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5280EFF42B15D5C2009F1AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5280EFF72B15D5C2009F1AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5280EFFF2B15D68E009F1AE5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		5280F0002B15D68E009F1AE5 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
+		5280F0032B15DAB6009F1AE5 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,9 @@
 		5280EFEF2B15D5C1009F1AE5 /* SwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				5280EFFE2B15D670009F1AE5 /* Graphics */,
 				5280EFF02B15D5C1009F1AE5 /* SwiftUICombineApp.swift */,
+				5280F0032B15DAB6009F1AE5 /* TrackableScrollView.swift */,
 				5280EFF22B15D5C1009F1AE5 /* ContentView.swift */,
 				5280EFF42B15D5C2009F1AE5 /* Assets.xcassets */,
 				5280EFF62B15D5C2009F1AE5 /* Preview Content */,
@@ -65,6 +73,15 @@
 				5280EFF72B15D5C2009F1AE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5280EFFE2B15D670009F1AE5 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				5280F0002B15D68E009F1AE5 /* AccountBackground.swift */,
+				5280EFFF2B15D68E009F1AE5 /* VisualEffectBlur.swift */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5280F0012B15D68E009F1AE5 /* VisualEffectBlur.swift in Sources */,
+				5280F0042B15DAB6009F1AE5 /* TrackableScrollView.swift in Sources */,
 				5280EFF32B15D5C1009F1AE5 /* ContentView.swift in Sources */,
 				5280EFF12B15D5C1009F1AE5 /* SwiftUICombineApp.swift in Sources */,
+				5280F0022B15D68E009F1AE5 /* AccountBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
