@@ -20,6 +20,10 @@
 		5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F00B2B15E590009F1AE5 /* PackagesView.swift */; };
 		5280F0142B160814009F1AE5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0132B160814009F1AE5 /* Package.swift */; };
 		5280F0162B160940009F1AE5 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0152B160940009F1AE5 /* PackageRow.swift */; };
+		5280F0182B17CD7D009F1AE5 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0172B17CD7D009F1AE5 /* FAQ.swift */; };
+		5280F01B2B17CDEF009F1AE5 /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5280F01A2B17CDEF009F1AE5 /* faqData.json */; };
+		5280F01D2B17CF6E009F1AE5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F01C2B17CF6E009F1AE5 /* ModelData.swift */; };
+		5280F01F2B17D08B009F1AE5 /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F01E2B17D08B009F1AE5 /* FAQRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		5280F00B2B15E590009F1AE5 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 		5280F0132B160814009F1AE5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		5280F0152B160940009F1AE5 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
+		5280F0172B17CD7D009F1AE5 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		5280F01A2B17CDEF009F1AE5 /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
+		5280F01C2B17CF6E009F1AE5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		5280F01E2B17D08B009F1AE5 /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 		5280EFEF2B15D5C1009F1AE5 /* SwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				5280F0192B17CDCA009F1AE5 /* Resources */,
 				5280F0122B160809009F1AE5 /* Models */,
 				5280F0112B15E5DE009F1AE5 /* Components */,
 				5280F0102B15E5CA009F1AE5 /* Utils */,
@@ -113,6 +122,7 @@
 			children = (
 				5280F0052B15DE6D009F1AE5 /* MenuRow.swift */,
 				5280F0152B160940009F1AE5 /* PackageRow.swift */,
+				5280F01E2B17D08B009F1AE5 /* FAQRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -129,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				5280F0032B15DAB6009F1AE5 /* TrackableScrollView.swift */,
+				5280F01C2B17CF6E009F1AE5 /* ModelData.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -146,8 +157,17 @@
 			isa = PBXGroup;
 			children = (
 				5280F0132B160814009F1AE5 /* Package.swift */,
+				5280F0172B17CD7D009F1AE5 /* FAQ.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5280F0192B17CDCA009F1AE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5280F01A2B17CDEF009F1AE5 /* faqData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +230,7 @@
 			files = (
 				5280EFF82B15D5C2009F1AE5 /* Preview Assets.xcassets in Resources */,
 				5280EFF52B15D5C2009F1AE5 /* Assets.xcassets in Resources */,
+				5280F01B2B17CDEF009F1AE5 /* faqData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +242,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5280F0012B15D68E009F1AE5 /* VisualEffectBlur.swift in Sources */,
+				5280F01F2B17D08B009F1AE5 /* FAQRow.swift in Sources */,
 				5280F0042B15DAB6009F1AE5 /* TrackableScrollView.swift in Sources */,
 				5280EFF32B15D5C1009F1AE5 /* ContentView.swift in Sources */,
+				5280F01D2B17CF6E009F1AE5 /* ModelData.swift in Sources */,
 				5280F0162B160940009F1AE5 /* PackageRow.swift in Sources */,
 				5280F00A2B15E581009F1AE5 /* FAQView.swift in Sources */,
 				5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */,
 				5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */,
 				5280F0142B160814009F1AE5 /* Package.swift in Sources */,
+				5280F0182B17CD7D009F1AE5 /* FAQ.swift in Sources */,
 				5280EFF12B15D5C1009F1AE5 /* SwiftUICombineApp.swift in Sources */,
 				5280F0022B15D68E009F1AE5 /* AccountBackground.swift in Sources */,
 				5280F0062B15DE6D009F1AE5 /* MenuRow.swift in Sources */,
