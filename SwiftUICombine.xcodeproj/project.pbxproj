@@ -24,6 +24,8 @@
 		5280F01B2B17CDEF009F1AE5 /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5280F01A2B17CDEF009F1AE5 /* faqData.json */; };
 		5280F01D2B17CF6E009F1AE5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F01C2B17CF6E009F1AE5 /* ModelData.swift */; };
 		5280F01F2B17D08B009F1AE5 /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F01E2B17D08B009F1AE5 /* FAQRow.swift */; };
+		5280F0222B18A92F009F1AE5 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0212B18A92F009F1AE5 /* PrimaryButton.swift */; };
+		5280F0242B18AA0B009F1AE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0232B18AA0B009F1AE5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		5280F01A2B17CDEF009F1AE5 /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		5280F01C2B17CF6E009F1AE5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		5280F01E2B17D08B009F1AE5 /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
+		5280F0212B18A92F009F1AE5 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		5280F0232B18AA0B009F1AE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			children = (
 				5280F0032B15DAB6009F1AE5 /* TrackableScrollView.swift */,
 				5280F01C2B17CF6E009F1AE5 /* ModelData.swift */,
+				5280F0232B18AA0B009F1AE5 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 		5280F0112B15E5DE009F1AE5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5280F0202B18A923009F1AE5 /* Buttons */,
 				5280F00F2B15E5BC009F1AE5 /* Other */,
 				5280F00E2B15E5B1009F1AE5 /* Rows */,
 			);
@@ -168,6 +174,14 @@
 				5280F01A2B17CDEF009F1AE5 /* faqData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5280F0202B18A923009F1AE5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5280F0212B18A92F009F1AE5 /* PrimaryButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +266,9 @@
 				5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */,
 				5280F0142B160814009F1AE5 /* Package.swift in Sources */,
 				5280F0182B17CD7D009F1AE5 /* FAQ.swift in Sources */,
+				5280F0242B18AA0B009F1AE5 /* Extensions.swift in Sources */,
 				5280EFF12B15D5C1009F1AE5 /* SwiftUICombineApp.swift in Sources */,
+				5280F0222B18A92F009F1AE5 /* PrimaryButton.swift in Sources */,
 				5280F0022B15D68E009F1AE5 /* AccountBackground.swift in Sources */,
 				5280F0062B15DE6D009F1AE5 /* MenuRow.swift in Sources */,
 			);
