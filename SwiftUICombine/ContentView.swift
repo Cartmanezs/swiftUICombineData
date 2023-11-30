@@ -35,6 +35,8 @@ struct ContentView: View {
     
     var content: some View {
         VStack {
+            ProfileRow()
+            
             VStack {
                 NavigationLink(destination: FAQView()) {
                     MenuRow()
@@ -48,11 +50,7 @@ struct ContentView: View {
                     MenuRow(title: "Youtube Channel", leftIcon: "play.rectangle.fill", rightIcon: "link")
                 })
             }
-            .padding(16)
-            .background(Color("Background 1"))
-            .background(VisualEffectBlur(blurStyle: .systemMaterialDark))
-            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Color.white, lineWidth:1).blendMode(.overlay))
-            .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .blurBackground()
             .padding(.top, 20)
             
             Text("Version 1.00")

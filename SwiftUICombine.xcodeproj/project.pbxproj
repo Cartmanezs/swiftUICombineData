@@ -26,6 +26,7 @@
 		5280F01F2B17D08B009F1AE5 /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F01E2B17D08B009F1AE5 /* FAQRow.swift */; };
 		5280F0222B18A92F009F1AE5 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0212B18A92F009F1AE5 /* PrimaryButton.swift */; };
 		5280F0242B18AA0B009F1AE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0232B18AA0B009F1AE5 /* Extensions.swift */; };
+		5280F0262B18C6BC009F1AE5 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0252B18C6BC009F1AE5 /* ProfileRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		5280F01E2B17D08B009F1AE5 /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
 		5280F0212B18A92F009F1AE5 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		5280F0232B18AA0B009F1AE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5280F0252B18C6BC009F1AE5 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				5280F0052B15DE6D009F1AE5 /* MenuRow.swift */,
 				5280F0152B160940009F1AE5 /* PackageRow.swift */,
 				5280F01E2B17D08B009F1AE5 /* FAQRow.swift */,
+				5280F0252B18C6BC009F1AE5 /* ProfileRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				5280F00A2B15E581009F1AE5 /* FAQView.swift in Sources */,
 				5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */,
 				5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */,
+				5280F0262B18C6BC009F1AE5 /* ProfileRow.swift in Sources */,
 				5280F0142B160814009F1AE5 /* Package.swift in Sources */,
 				5280F0182B17CD7D009F1AE5 /* FAQ.swift in Sources */,
 				5280F0242B18AA0B009F1AE5 /* Extensions.swift in Sources */,
