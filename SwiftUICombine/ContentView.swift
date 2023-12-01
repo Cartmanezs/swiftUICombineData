@@ -43,6 +43,16 @@ struct ContentView: View {
                 }
             
             VStack {
+                NotificationsRow()
+                
+                divider
+                
+                LiteModeRow()
+            }
+            .blurBackground()
+            .padding(.top, 20)
+            
+            VStack {
                 NavigationLink(destination: FAQView()) {
                     MenuRow()
                 }

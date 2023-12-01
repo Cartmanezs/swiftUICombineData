@@ -59,6 +59,8 @@
 		5280F0642B18DA60009F1AE5 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F0632B18DA60009F1AE5 /* CertificateViewModel.swift */; };
 		52940B132B19FAE700C0EE71 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52940B122B19FAE700C0EE71 /* CertificatesView.swift */; };
 		52940B162B19FB8600C0EE71 /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52940B152B19FB8600C0EE71 /* CertificateCard.swift */; };
+		52940B182B1A0C2200C0EE71 /* NotificationsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52940B172B1A0C2200C0EE71 /* NotificationsRow.swift */; };
+		52940B1A2B1A0D0D00C0EE71 /* LiteModeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52940B192B1A0D0D00C0EE71 /* LiteModeRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		5280F0632B18DA60009F1AE5 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
 		52940B122B19FAE700C0EE71 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
 		52940B152B19FB8600C0EE71 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
+		52940B172B1A0C2200C0EE71 /* NotificationsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRow.swift; sourceTree = "<group>"; };
+		52940B192B1A0D0D00C0EE71 /* LiteModeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteModeRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 				5280F0152B160940009F1AE5 /* PackageRow.swift */,
 				5280F01E2B17D08B009F1AE5 /* FAQRow.swift */,
 				5280F0252B18C6BC009F1AE5 /* ProfileRow.swift */,
+				52940B172B1A0C2200C0EE71 /* NotificationsRow.swift */,
+				52940B192B1A0D0D00C0EE71 /* LiteModeRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -386,9 +392,11 @@
 				5280F00A2B15E581009F1AE5 /* FAQView.swift in Sources */,
 				5280F00C2B15E590009F1AE5 /* PackagesView.swift in Sources */,
 				5280F0082B15E005009F1AE5 /* GradientIcon.swift in Sources */,
+				52940B1A2B1A0D0D00C0EE71 /* LiteModeRow.swift in Sources */,
 				5280F0642B18DA60009F1AE5 /* CertificateViewModel.swift in Sources */,
 				52940B162B19FB8600C0EE71 /* CertificateCard.swift in Sources */,
 				5280F0262B18C6BC009F1AE5 /* ProfileRow.swift in Sources */,
+				52940B182B1A0C2200C0EE71 /* NotificationsRow.swift in Sources */,
 				5280F0142B160814009F1AE5 /* Package.swift in Sources */,
 				5280F0182B17CD7D009F1AE5 /* FAQ.swift in Sources */,
 				5280F0242B18AA0B009F1AE5 /* Extensions.swift in Sources */,
