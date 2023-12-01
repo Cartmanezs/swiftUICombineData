@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     @State private var contentOffset = CGFloat(0)
+    @State private var showCertificates: Bool = false
+    
     var body: some View {
         NavigationView {
             ZStack(alignment: .top) {
@@ -36,6 +38,9 @@ struct ContentView: View {
     var content: some View {
         VStack {
             ProfileRow()
+                .onTapGesture {
+                    showCertificates.toggle()
+                }
             
             VStack {
                 NavigationLink(destination: FAQView()) {
@@ -65,6 +70,9 @@ struct ContentView: View {
         .padding(.top, 20)
         .padding(.horizontal, 20)
         .padding(.bottom, 20)
+        .sheet(isPresented: $showCertificates, content: {
+            CertificatesView()
+        })
 
     }
     
